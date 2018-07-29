@@ -14,7 +14,7 @@ using Android.Widget;
 
 namespace CCAndroid
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar", MainLauncher = false)]
     public class SimpleMainActivity : AppCompatActivity
     {
         private const int req_Camera = 1;

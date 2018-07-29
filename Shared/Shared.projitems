@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>ad585042-92db-48df-b1c1-171ab17b5419</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AmbientShader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CCContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ColorHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CountLayerContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CountLayerHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EDM.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GLHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Histogram.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ImageHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MutableTexture.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OtsuThreshold.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PrimSelector.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)QuickFill.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)QuickFillUint.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)QuickFullByte.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Region.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Segmentation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sphere.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SphereSelector.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tag.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TagSelector.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TextureShader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ThresholdShader.cs" />
+  </ItemGroup>
+</Project>
